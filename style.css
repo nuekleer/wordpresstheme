@@ -1,0 +1,483 @@
+/*
+Theme Name: Demanes
+Theme URI: http://demanesinteriors.net/
+Author: Web Design 309
+Author URI: http://webdesign309.com/
+Description: Demanes Interiors Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+	/*background: url('/wp-content/themes/demanes/images/main.jpg') no-repeat;
+	background-size: 100% auto !important; 
+	background-position: center top !important;
+	background-repeat: no-repeat !important;*/
+	background-color: #000;
+	color: #8C8C8C;
+}
+h3{
+	color: #505050;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+a{
+	color: #FFFDFF;
+}
+a:hover{
+	color: #FFFDFF;
+	font-weight: bolder;
+}
+input[type="text"], textarea {
+	width: 100%;
+
+  background-color : #1F1F1F; 
+  border: none;
+
+}
+
+input[type="text"] {
+	height: 30px;
+}
+
+textarea {
+	height: 95px;
+}
+
+textarea::-webkit-input-placeholder {padding-left: 10px; padding-top: 5px;}
+textarea:-moz-placeholder {padding-left: 10px; padding-top: 5px;}
+textarea::-moz-placeholder {padding-left: 10px; padding-top: 5px;}
+textarea:-ms-input-placeholder {padding-left: 10px; padding-top: 5px;}
+
+input[type="text"]::-webkit-input-placeholder {padding-left: 10px; }
+input[type="text"]:-moz-placeholder {padding-left: 10px; }
+input[type="text"]::-moz-placeholder {padding-left: 10px; }
+input[type="text"]:-ms-input-placeholder {padding-left: }
+
+@font-face {
+	font-family: 'BuxtonSketch';
+	src: url('fonts/BuxtonSketch.eot');
+	src: local('BuxtonSketch'), url('fonts/BuxtonSketch.woff') format('woff'), url('fonts/BuxtonSketch.ttf') format('truetype');
+}
+.wrapper{
+    background: url('/wp-content/themes/demanes/images/bg.jpg') no-repeat top center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    min-height:955px;
+}
+.backgroundSlider{
+	/*background: url('/wp-content/themes/demanes/images/389_en3elite.jpg') no-repeat;*/
+	background-size: 100% auto !important; 
+	background-position: center top !important;
+	background-repeat: no-repeat !important;
+	padding: 0;
+}
+#headerRow{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.demanesLogo{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.demanesLogo img{
+	width: 100%;
+	max-width: 281px;
+}
+
+#headerSocialRow{
+	background: url("images/behindsocial.png") no-repeat center; 
+	/*max-width: 323px;
+	padding: 0 70px 0 70px; */
+	text-align: center;
+
+}
+
+#callUs{
+	font-family: "BuxtonSketch";
+	font-size: 22px;
+}
+
+#phoneNumber{
+	font-family: "BuxtonSketch";
+	font-size: 26px;
+	color: #BCBCBC;
+}
+
+#phoneNumber a{
+	text-decoration: none;
+}
+
+#servingCustomers img{
+	width: 100%;
+	max-width: 360px;
+	margin-bottom: 10px;
+}
+
+.demanesSocial{
+	margin-bottom: 10px;
+}
+
+.centerSocial{
+	padding: 0 20px 0 20px;
+}
+
+#phoneContainer{
+	padding-top: 20px;
+	text-align: center;
+	float: left;
+	margin-left: 20%;
+}
+
+#phoneIcon{
+	float: left;
+	margin-right: 10px;
+	padding-top: 25px;
+}
+
+#phoneTextContainer{
+	float: left;
+}
+
+#footerWebLogo img{
+	display: block;
+	width: 100%;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav>li>a{
+	margin:10px 10px 10px 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid #333333;
+	color: #FFFDFF !important;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 29px;
+}
+.last-menu-item a{
+	border: none !important;
+}
+.nav>li>a:hover{
+    background:none;
+    text-decoration:underline;
+    border-right: 1px solid #333333;
+}
+.nav>li>a:focus{
+    background:none;
+    text-decoration:underline;
+    border-right: 1px solid #333333;
+}
+.nav .open>a:hover{
+    background:none;
+    text-decoration:underline;
+    border-right: 1px solid #333333;
+}
+.nav .open>a{
+    background:none;
+    text-decoration:underline;
+    border-right: 1px solid #333333;
+}
+.nav .open>a:focus{
+    background:none;
+    text-decoration:underline;
+    border-right: 1px solid #333333;
+}
+
+.navbar-default{
+	background-color: #000;
+	border-color: #333333;
+	border-color:rgba(255,255,255,0.5);
+	border-right: none;
+	border-left: none;
+	border-radius: 0;
+	margin-bottom:0;
+}
+
+
+.navbar-default .navbar-nav>.active>a{
+	background-color: transparent;
+}
+
+.nav-justified>.dropdown .dropdown-menu {
+    width:100%;
+    margin-top:-1px;
+}
+
+.dropdown-menu>li>a:hover{
+    background:none;
+    text-decoration:underline;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+.dropdown-menu>.active>a{
+    background-color:#FFF;
+    color:#333;
+}
+
+.dropdown-menu>.active>a:hover{
+    background-color:#FFF;
+    color:#333;
+    text-decoration:underline;
+}
+
+.dropdown-menu>.active>a:focus{
+    background-color:#FFF;
+    color:#333;
+}
+
+.homeCenter{
+	/*min-height: 365px;*/
+	padding:0;
+}
+
+#homeLeftCircle a{
+	text-align: center;
+	background: url("/wp-content/themes/demanes/images/circle1.png");
+	width: 222px;
+	height: 239px;
+	display: block;
+	line-height: 239px;
+	margin-top: 39px;
+	color: #FFFDFF !important;
+	font-size: 20px;
+}
+
+#homeRightCirle a{
+	text-align: center;
+	background: url("/wp-content/themes/demanes/images/circle.png");
+	width: 311px;
+	height: 311px;
+	display: block;
+	line-height: 311px;
+	color: #FFFDFF !important;
+	font-size: 20px;
+}
+
+.widgetBox{
+	border-top: 1px solid #2E2E2E;
+	border-bottom: 1px solid #2E2E2E;
+	margin-bottom: 15px;
+	min-height: 344px;
+	height: auto;
+}
+
+.recentNewsWidget{
+	background-color: #161616;
+	min-height: 344px;
+	float: left;
+}
+.recentNewsTitle{
+	border-bottom: 1px solid #2E2E2E;
+	color: #BBBBBB;
+}
+
+.recentNewsTitle a{
+	text-decoration: none;
+	color: #BBBBBB;
+}
+
+.locationWidget{
+	background-color: #191919;
+	min-height: 344px;
+	float: left;
+	position: relative;
+}
+
+.locationAddressWrapper{
+	margin-bottom: 10px;
+}
+
+.locationTearDrop{
+	display: block;
+	float: left;
+}
+
+.locationAddress{
+	display: block;
+	float: left;
+	margin-left: 15px;
+}
+
+.locationMap{
+	opacity: .5;
+}
+
+.locationMapUrl{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-top: -50px;
+	color: #505050;
+	position: absolute;
+	background-color: #191919;
+	left: 0;
+	width: 100%;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.locationMapUrl a{
+	text-decoration: none;
+	color: #505050;
+}
+
+.storeHoursWidget{
+	background-color: #161616;
+	min-height: 344px;
+	float: left;
+}
+
+.contactFormWidget{
+	/*float: none;
+	margin:0 auto;*/
+	float:left;
+	min-height:344px;
+	background-color: #191919;
+}
+
+.contactFormInPage{
+    float: none;
+	margin:0 auto;
+}
+
+input[type="image"] {
+	max-width: 100%;
+}
+
+
+
+/*footer nav */
+.navbar .navbar-nav .footerNav{
+  display: inline-block;
+  float: none;
+}
+
+.navbar.footerNav .navbar-collapse{
+  text-align: left;
+  border: none;
+}
+.collapse.footerNav {
+	padding-left: 0;
+}
+
+.footerNav>li>a{
+	margin:10px 10px 10px 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid !important;
+	color: #8C8C8C !important;
+	font-size: 12px;
+	line-height: 10px;
+}
+.footerNav>li.last-menu-item a{
+	border: none !important;
+}
+.navbar-default.footerNav{
+	border-color: #333333;
+	background-color: transparent;
+}
+
+.navbar.footerNav{
+	border: none;
+}
+
+.col-lg-9.footerNav{
+	padding:0;
+	font-size: 12px;
+}
+
+/*store hours*/
+
+.storeHoursContainer{
+	text-align: center;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-width: 110px;
+	background-color: #191919;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.clockWrapper{
+	margin-bottom: 10px;
+}
+
+#pageTitle{
+	font-size: 20px;
+	border-bottom: 1px solid #1F1F1F;
+	margin-bottom: 20px;
+	display:none;
+}
+
+#pageContent{
+	/*margin-bottom: 20px;*/
+	width:100%;
+}
+
+.pageContentContainer{
+	margin-bottom: 50px;
+	/*background-color: #000;*/
+	padding-bottom:20px;
+	margin-top:20px;
+}
+
+.prevLink{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.nextLink{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.caret{
+    display:none;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+	
+}
+
+@media (max-width: 768px) {
+	.demanesLogo{
+		text-align: center;
+	}
+	#servingCustomers{
+		text-align: center;
+	}
+}
